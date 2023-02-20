@@ -4,48 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Luxury Jewellery</title>
-    <link rel="stylesheet" href="css/jewellery.css">
-    <script src="javascript/app.js"></script>
-    <link rel="icon" type="image/x-icon" href="images/LjV_logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/LjV_logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Luxury Jewellery</title>
 </head>
 <body>
-<nav class="nav">
-    <ul class="nav__list">
-    <li id="pageLogo"> 
-        <a href="index.html"> <img id="pageLogo" src="images/LjV_logo.png" alt="page logo" onclick=""></a>
-    </li>
-    <li class="nav__listitem">Silver
-        <ul class="nav__listitemdrop">
-            <li><a href="silverBracelets.html">silver Bracelets</a></li> 
-            <li><a href="#">silver necklaces</a></li>
+    <!--Navbar-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li id="pageLogo">
+                <a href="index.html"> <img id="pageLogo" src="images/LjV_logo.png" alt="page logo" onclick=""></a>
+            </li>
+            <li class="nav__listitem">Silver
+                <ul class="nav__listitemdrop">
+                    <li><a href="silverBracelets.html">silver Bracelets</a></li>
+                    <li><a href="#">silver necklaces</a></li>
+                </ul>
+            </li>
+            <li class="nav__listitem">Gold
+                <ul class="nav__listitemdrop">
+                    <li><a href="goldenBracelets.html">gold Bracelets</a></li>
+                    <li><a href="#">gold necklaces</a></li>
+                </ul>
+            </li>
+            <li class="nav__listitem"><a href="contacts.html">Contacts & about us</a></li>
         </ul>
-    </li>
-    <li class="nav__listitem">Gold
-        <ul class="nav__listitemdrop">
-            <li><a href="goldenBracelets.html">gold Bracelets</a></li>
-            <li><a href="#">gold necklaces</a></li>
-        </ul>
-    </li>
-    <li class="nav__listitem"><a href="contacts.html">Contacts & about us</a></li>
-    </ul>
-</nav>
-<main>
-    <!-- <div class="slider">
-        <div class="slide">
-            <img src="images/silver1.jpg" alt="silver bracelet">
+    </nav>
+     <!--Navbar-->
+
+      <!--Carosel-->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/AUV_Winter19_STILLS_ED03_0143_16x9-2000x1125.jpg" class="d-block w-100 imgSize"  alt="Jewellery">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Valentines-Day-Gift-Guide-2023-Shop-the-best-jewelry-for-your-Valentine.-2000x1125.webp" class="d-block w-100 imgSize" alt="Jewellery">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Lavari-Jewelers-13-2000x1125.webp" class="d-block w-100 imgSize" alt="Jewellery">
+          </div>
         </div>
-        <div class="slide">
-            <img src="images/silver2.jpg" alt="silver bracelet1">
-        </div>
-        <div class="slide">
-            <img src="images/silver3.jpg" alt="silver bracelet2">
-        </div>
-        <div class="slide">
-            <img src="images/silver4.jpeg" alt="silver bracelet3">
-        </div> -->
-    </div>
-</main>
-   
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+          <!-- Option 1: Bootstrap Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <!--Carosel-->
+
+    
+
+    
+
 </body>
 </html>
